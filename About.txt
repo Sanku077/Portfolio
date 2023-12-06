@@ -1,0 +1,183 @@
+    <!------About Section is Start at Here---->
+    <section id="about">
+        <div class="container">
+            <div class="About">
+                <h1 class="About-Main-title" data-aos="slide-left">Sanket Mangle <span>resume</span></h1>
+                <center data-aos="fade-up">
+                    <div class="Circular"></div>
+                </center>
+                <!-- Cards Starts-->
+                <div class="cssCards">
+                    <!--First Cards-->
+                    <div class="card" data-aos="fade-right">
+                        <div class="content">
+                            <div class="contentBx">
+                                <center>
+                                    <h2>Web Development</h2>
+                                    <h3><span>Intermediate</span></h3>
+                                </center>
+                            </div>
+                        </div>
+                        <center>
+                            <p class="sci">
+                                I am in Web Developement from last 12 Month. I have Developed Many Websites have much
+                                Expirence.I have developed Website such as <span>rudraInvestment</span> and <span>Raaina
+                                    bakery</span> and <span>Mykart</span> by using Wordpress.
+                            </p>
+                            <a href="mailto:ssmangle1234@gmail.com?subject = Feedback&body = we want to hire you!!"><button class=" btn_Cards">Hire me</button></a>
+                        </center>
+                    </div>
+                    <!--First End-->
+                    <!--Second Cards-->
+                    <div class="card" data-aos="fade-up">
+                        <div class="content">
+                            <div class="contentBx">
+                                <center>
+                                    <h2>Designer</h2>
+                                    <h3><span>Advanced</span></h3>
+                                </center>
+                            </div>
+                        </div>
+                        <center>
+                            <p class="sci">
+                                I am in Web Designing from last 2 Years.I have developed So many Web and App Design
+                                using
+                                <span>Adobe XD</span>. As last 2 years i am using it I have much Experience of it And i
+                                can
+                                give best design to You.
+                            </p>
+                            <a href="mailto:ssmangle1234@gmail.com?subject = Feedback&body = we want to hire you!!"><button class=" btn_Cards">Hire me</button></a>
+                        </center>
+                    </div>
+                    <!--Second End-->
+                    <!--Third-->
+                    <div class="card" data-aos="fade-left">
+                        <div class="content">
+                            <div class="contentBx">
+                                <center>
+                                    <h2>App Development</h2>
+                                    <h3><span>Beginner</span></h3>
+                                </center>
+                            </div>
+                        </div>
+                        <center>
+                            <p class="sci">
+                                I am in App Developement from last 8 Month. I am developing my Portfolio Website.I am
+                                good
+                                in java. So I use <span>Android Studio</span> and <span>Java</span> for App
+                                Developement.I
+                                have Started <span>Koltin</span> For App development.
+                            </p>
+                            <a href="mailto:ssmangle1234@gmail.com?subject = Feedback&body = we want to hire you!!"><button class=" btn_Cards">Hire me</button></a>
+                        </center>
+                    </div>
+                </div>
+                <!--Third End-->
+                <!-- Cards Ends-->
+            </div>
+        </div>
+    </section>
+    <!------About Section is End at Here---->
+
+
+
+/* CSS of About Section*/
+.About h1{
+	text-align: center;
+	font-size: 27px;
+	font-weight:bold;
+  margin-top: 50px;
+}
+.About span{
+	color: #68e0cf;
+	font-weight: bolder;
+}
+.About p{
+	font-size: 20px;
+}
+.Circular{
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+	background-image: url('../img/Self.jpg');
+	background-size: cover;
+	border-color: #68e0cf;
+	display: block;
+	-webkit-border-radius:200px;
+	-moz-border-radius:200px;
+}
+.contentBx span{
+	color: #68e0cf;
+	font-weight: bold;
+}
+.contentBx h2{
+	font-weight: bold;
+}
+.cssCards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 50vh;
+
+}
+.container .card{
+	position: relative;
+	width: 330px;
+	height: 330px;
+	background: rgba(255,255,255,0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter:blur(10px);
+}
+.sci{
+	justify-content: center;
+	align-items: center;
+	font-size: 14px !important;
+	margin-right: 5px !important;
+	margin-left: 5px !important;
+}
+.container .card .content{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 05s;
+}
+.btn_Cards{
+	margin-top: 10px;
+	height: 40px;
+	width: 120px;
+	shape-outside: circle();
+	background-color: #68e0cf;
+	color: #373b40;
+	display: inline-block;
+	shape-outside: circle(20deg);
+	border-radius: 20px;
+	border-color: #68e0cf;
+	font-size: 16px;
+	font-weight: bold;
+}
+.What{
+	font-weight: bold;
+}
+.btn_Cards:hover{
+	background-color:white;
+	border-color: #68e0cf;
+	color: #68e0cf;
+	display: inline-block;
+	shape-outside: circle(20deg);
+}
+.contentBx h2{
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.contentBx h3{
+  font-size: 1.1em;
+}
+/* CSS of ABout Section End*/

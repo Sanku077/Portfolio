@@ -1,0 +1,553 @@
+    <!--Contact section start here-->
+    <section class="Contact" id="contact">
+        <span class="contact1-form-title" data-aos="slide-right">
+            Get in <span>touch</span>
+        </span>
+        <div class="contact1">
+            <div class="container-contact1">
+                <div class="address-mail" data-aos="fade-up">
+                    <h3><i class="fas fa-map-marker-alt"></i> Address</h3>
+                    <p>IUDP colony,Near Mahakali Mandir Washim-444505</p>
+                    <h3><i class="fas fa-mobile"></i> Lets Talk</h3>
+                    <p><a href="tel:9370567328">+91 9370567328</a><br><a href="tel:7620818197">+91 7517929028</a></p>
+                    <h3><i class="fas fa-envelope"></i> General support</h3>
+                    <p><a href="mailto:ssmangle1234@gmail.com">ssmangle1234@gmail.com</a> </p>
+                </div>
+                <form method="POST" action="includes/contactUs.inc.php" class="contact1-form validate-form" autocomplete="off" data-aos="fade-up">
+                    <div class="wrap-input1 validate-input">
+                        <input class="input1" type="text" name="name" placeholder="Name" required="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input">
+                        <input class="input1" type="text" name="email" placeholder="Email" required="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input">
+                        <input class="input1" type="text" name="subject" placeholder="Subject" required="">
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="wrap-input1 validate-input">
+                        <textarea class="input1" name="message" placeholder="Message" required=""></textarea>
+                        <span class="shadow-input1"></span>
+                    </div>
+                    <div class="container-contact1-form-btn">
+                        <button class="contact1-form-btn" type="submit" name="submit">Send</button>
+
+                    </div>
+                    <center class="error">
+                        <?php
+                        if (isset($_GET['error'])) {
+
+                            if ($_GET['error'] == 'none') {
+                                echo "<p>Your response submitted successfully</p>";
+                            }
+                        }
+                        ?>
+                    </center>
+                </form>
+            </div>
+        </div>
+        <!--Contact section end here-->
+        <!--Footer section start here-->
+        <footer>
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-3 col-xs-3">
+                        <div class="box">
+                            <h3>About us</h3>
+                            <p>I am Sanket Mangle Student of computer science and engineering in Marathwada institute of
+                                technology Aurangabad.</p>
+                            <button class="Footer-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-3">
+                        <div class="box">
+                            <h3>Contact Links</h3>
+                            <ul>
+                                <li>
+                                    <a href="#Home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#skilll-scroll">Skills</a>
+                                </li>
+                                <li>
+                                    <a href="#work">Works</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-3">
+                        <div class="box">
+                            <h3>Follow Us</h3>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/sanket.mangle.7">
+                                            <img src="./icons/facebook.svg" alt="">
+                                            <span>Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/sanket_mangle/">
+                                            <img src="./icons/twitter.svg" alt="">
+                                            <span>Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:ssmangle1234@gmail.com">
+                                            <img src="./icons/google.svg" alt="">
+                                            <span>Google +</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/_.sanket_.007?igshid=14jh83vj3u2or">
+                                            <img src="./icons/instagram.svg" alt="">
+                                            <span>Instagram</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-3">
+                        <div class="box instagram-api">
+                            <h3>Work Place</h3>
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.5777808760117!2d77.13854821474713!3d20.10992918650319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd0e3b108ec1ffd%3A0xa09c60cac88040f5!2sGajanan%20Maharaj%20Temple%2CIudp%20Washim!5e0!3m2!1sen!2sin!4v1609657032833!5m2!1sen!2sin" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="copyright">
+            <div>
+                Copyright © 2021 .All rights reserved by <a href="#">Sanket Code</a>.
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS FOR CONTACT SECTION*/
+/*Contact CSSS start*/
+section.contact-us{
+    padding-top:0;
+    padding-bottom: 0;
+}
+section.contact-us .contact-info-wrapper {
+    padding:4rem 0;
+    flex:1;
+}
+section.contact-us .map{
+    flex:1;
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+}
+section.contact-us .contact-info{
+    display:flex;
+    justify-content: center;
+}
+section.contact-us .contact-info > div > div {
+    display:flex;
+    align-items:center;
+    margin-bottom:2rem;
+}
+section.contact-us .contact-info > div > div img{
+    margin-right: 1rem;
+}
+section.contact-us .contact-info > div > div > div{
+    display:flex;
+    flex-direction: column;
+}
+section.contact-us .contact-info > div > div > div span:first-child{
+    margin-bottom:0.25rem;
+}
+footer{
+    background:black;
+    padding:4rem 0;
+}
+footer .container{
+    display:flex;
+    color:white;
+}
+
+footer .box{
+    flex:1;
+    margin-right:2rem;
+    text-align:center;
+}
+
+footer .instagram-api img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+footer .instagram-api .post-wrap{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+footer .instagram-api .post-wrap > div{
+    width: calc(1/3*100% - (1 - 1/3)*10px);
+    margin-bottom:10px;
+}
+footer .box ul{
+    list-style-type: none;
+}
+footer .box ul li a{
+    color:white;
+    text-decoration: none;
+    transition: all .3s ease;
+    font-size: 14px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+footer .box ul li a:hover{
+    color:#68e0cf;
+}
+footer .box h3{
+    border-bottom:3px solid #68e0cf;
+    padding-bottom:1rem;
+    margin-bottom:1rem;
+    font-size: 1rem;
+}
+
+footer .box p{
+    line-height: 1.6;
+    margin-bottom:1rem;
+    font-size: 12px;
+}
+footer .box ul li{
+    margin-bottom:1rem;
+}
+footer .box:nth-child(3) > div {
+    display:flex;
+    justify-content: center;
+}
+footer .box:nth-child(3){
+    text-align: left;
+}
+footer .box:nth-child(3) h3{
+    text-align: center;
+}
+footer .box:nth-child(3) > div img{
+    margin-right:1rem;
+}
+footer .box:nth-child(3) ul li{
+    margin-bottom:1.5rem;
+}
+
+footer.copyright{
+    padding:1rem 0;
+    background: black;
+    color:white;
+    text-align: center;
+    font-size: 0.7rem;
+}
+footer.copyright a{
+    color:#68e0cf;
+    text-decoration: none;
+}
+.Footer-btn{
+	background-color:#68e0cf !important;
+border-color:#68e0cf  !important;
+color: black !important;
+padding: 6px 10px 6px 10px;
+shape-outside: circle();
+font-weight: bold;
+font-size: 12px !important;
+border-radius: 20px;
+}
+.Footer-btn:hover{
+background-color:black !important;
+color: #68e0cf !important;
+border-color: #68e0cf  !important;
+transition: all 500ms ease;
+}
+
+
+/*Contact Form csss*/
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+.contact1 {
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  background: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-contact1 {
+  width: 1163px;
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 90px 130px 88px 148px;
+}
+
+.contact1-pic {
+  width: 296px;
+}
+
+.contact1-pic img {
+  max-width: 100%;
+}
+
+.contact1-form {
+  width: 390px;
+}
+
+.contact1-form-title {
+  display: block;
+  font-size: 24px;
+  font-weight: 500 !important;
+  color: white; 
+  line-height: 1.2;
+  text-align: center;
+  background-color: black;
+  padding-top: 50px;
+  font-weight: bold;
+
+}
+.contact1-form-title span{
+color: #68e0cf;
+}
+input.input1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+input.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+textarea.input1 {
+  min-height: 150px;
+  border-radius: 25px;
+  padding: 12px 30px;
+}
+textarea.input1 + .shadow-input1 {
+  border-radius: 25px;
+}
+
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.shadow-input1 {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(87,184,70, 0.5);
+}
+
+.container-contact1-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.contact1-form-btn {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  background: #68e0cf;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 1.5;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  transition: all 0.4s;
+}
+
+
+.contact1-form-btn:hover {
+	background-color: black;
+  color: #68e0cf;
+  border-color: #68e0cf;
+  border-width: 1.5px;
+}
+.contact1-form-btn span{
+	font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .contact1-pic {
+    width: 33.5%;
+  }
+
+  .contact1-form {
+    width: 44%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-contact1 {
+    padding: 90px 80px 88px 90px;
+  }
+
+  .contact1-pic {
+    width: 35%;
+  }
+
+  .contact1-form {
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-contact1 {
+    padding: 90px 80px 88px 80px;
+  }
+
+  .contact1-pic {
+    display: none;
+  }
+
+  .contact1-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-contact1 {
+    padding: 90px 15px 88px 15px;
+  }
+}
+.validate-input {
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.address-mail{
+	color: white;
+	padding-bottom: 100px;
+}
+.address-mail h3{
+  font-size: 18px;
+  font-weight: 100;
+}
+.address-mail p{
+	font-size: 12px !important;
+	color: #68e0cf !important;
+	text-decoration: none;
+}
+.address-mail p a{
+	font-size: 13px !important;
+	color: #68e0cf !important;
+	text-decoration: none;
+}
+.address-mail p a:hover{
+	font-size: 13px !important;
+	color: #68e0cf !important;
+	text-decoration: none;
+}
+
+.contact1-form-title{;
+	padding:1rem;
+	position: relative;
+  font: size 20px;;
+}
+.contact1-form-title:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 70px;
+	background-color: #68e0cf;
+}
+#contact{
+	background-color: black;
+	padding-top: 50px;
+}
+
+.error{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	color: #01a743;
+}
+/*CSS FOR CONTACT SECTION END*/

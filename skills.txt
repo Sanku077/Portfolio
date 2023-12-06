@@ -1,0 +1,378 @@
+
+/* Css for Skills Section START*/
+
+.skills1{
+	z-index: 99999;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+.skewed{
+	position: absolute;
+	margin-top: 100px;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 18vh;
+	background: black;
+	z-index: -1;
+	transform: skewY(-5deg);
+	transform-origin: top left;
+}
+nav{
+	z-index: 100000;
+}
+
+.skill{
+	background-color: black;
+	z-index: 99999;
+	color: white;
+	margin-top: 80px;
+}
+.inner{
+	padding-top: 20px;
+	
+}
+@media screen and (min-width: 1024px){
+#con-skill{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	grid-gap: 1rem;
+	padding: 1rem 80px;
+	font-size: 1.2rem;
+}
+}
+.skill-box{
+	padding: 1rem;
+	color: #eee;
+	cursor: pointer;
+}
+.skill-title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.5rem;
+margin-bottom: 0.5rem;
+position: relative;
+}
+.skill-title:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	width: 35px;
+	height: 4px;
+	border-radius: 2px 0 0 2px;
+	color: #68e0cf;
+	transition: 0.5s;
+}
+.skill.box:hover > .skill-title:after, .skill-title:before > .skill-title:before{
+width: 35px;
+}
+.skill-title:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 35px;
+	height: 4px;
+	border-radius: 0px 2px 2px 0px;
+	color: #68e0cf;
+	transition: 0.5s;
+}
+
+.img:after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 100%;
+background-color: rgba(100,100,100,0.2);
+border-radius: 45px 0 0 45px;
+}
+.skill-title{
+	color: #fff;
+	margin-top: 0.6rem;
+}
+.img{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	border-radius: 45px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-icon{
+	width: 50px;
+	z-index: 2;
+}
+.Skill-Main-Title h1{
+  font-size: 27px !important;
+  margin-top: 50px;
+  padding: 1rem;
+}
+.Skill-Main-Title span{
+  color: var(--main-color);
+  font-size: 27px;
+}
+.skill-title h3{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.skill-box p{
+  font-size: 13px;
+  font-weight: 100;
+  margin-top: -8px;
+}
+@media screen and (max-width: 700px){
+.skills1{
+	z-index: 99999;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+nav{
+	z-index: 100000;
+}
+
+.skill{
+	background-color: black;
+	z-index: 99999;
+	color: white;
+	margin-top: 80px;
+}
+.inner{
+	padding-top: 20px;
+	
+}
+#con-skill{
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	grid-gap: 1rem;
+	padding: 1rem 80px;
+	font-size: 1.2rem;
+}
+.skill-box{
+	padding: 1rem;
+	color: #eee;
+	cursor: pointer;
+}
+.skill-title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.5rem;
+margin-bottom: 0.5rem;
+position: relative;
+}
+.skill-title:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	width: 35px;
+	height: 4px;
+	border-radius: 2px 0 0 2px;
+	color: #68e0cf;
+	transition: 0.5s;
+}
+.skill.box:hover > .skill-title:after, .skill-title:before > .skill-title:before{
+width: 35px;
+}
+.skill-title:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 35px;
+	height: 4px;
+	border-radius: 0px 2px 2px 0px;
+	color: #68e0cf;
+	transition: 0.5s;
+}
+
+.img:after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 100%;
+background-color: rgba(100,100,100,0.2);
+border-radius: 45px 0 0 45px;
+}
+.skill-title{
+	color: #fff;
+	margin-top: 0.6rem;
+}
+.img{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	border-radius: 45px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-icon{
+	width: 50px;
+	z-index: 2;
+}
+.Skill-Main-Title h1{
+  font-size: 27px !important;
+  margin-top: 50px;
+}
+.Skill-Main-Title span{
+  color: var(--main-color);
+  font-size: 27px;
+}
+.skill-title h3{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.skill-box p{
+  font-size: 13px;
+  font-weight: 100;
+  margin-top: -8px;
+}
+}
+.Skill-Main-Title:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 150px;
+	background-color: #68e0cf;
+}
+/* CSS for Skills Section END*/
+
+
+
+    <!------Skill Section is Start at Here---->
+    <section class="skill" id="skilll-scroll">
+        <div class="inner">
+            <center>
+                <div class="Skill-Main-Title" data-aos="slide-right">
+                    <h1>Programming <span>Skills</span></h1>
+                </div>
+            </center>
+            <div class="grid-container" id="con-skill">
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/html.png" class="skill-icon">
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/css.png" class="skill-icon">
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/javaScript.png" class="skill-icon">
+                        </div>
+                        <h3>JAVASCRIPT</h3>
+                    </div>
+                    <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/php.png" class="skill-icon">
+                        </div>
+                        <h3>PHP</h3>
+                    </div>
+                    <p>PHP is a general-purpose scripting language especially suited to web development.It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.The PHP reference implementation is now produced by The PHP Group.PHP originally stood for Personal Home Page.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/java.png" class="skill-icon">
+                        </div>
+                        <h3>JAVA</h3>
+                    </div>
+                    <p>Java is a class-based, object-oriented programming language. It is a general-purpose programming language intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/python.png" class="skill-icon">
+                        </div>
+                        <h3>PYTHON</h3>
+                    </div>
+                    <p>Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs as well as its object-oriented approach.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/ajax.png" class="skill-icon">
+                        </div>
+                        <h3>AJAX</h3>
+                    </div>
+                    <p>Ajax is a set of web development techniques using many web technologies on the client-side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously without interfering.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/mysql.png" class="skill-icon">
+                        </div>
+                        <h3>MYSQL</h3>
+                    </div>
+                    <p>MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language.
+                    </p>
+                </div>
+
+                <div class="skill-box" data-aos="fade-up">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="img/android-studio.png" class="skill-icon">
+                        </div>
+                        <h3>ANDROID STUDIO</h3>
+                    </div>
+                    <p>Android Studio is the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.It is available for download on Windows, macOS and Linux.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------Skill Section is End at Here---->

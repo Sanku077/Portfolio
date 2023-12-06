@@ -1,0 +1,274 @@
+    <!--Work Gallary section Start-->
+    <section class="work-gallary" id="work">
+        <section id="portfolio">
+            <div class="portfolio-background">
+                <h1 class="Work-Main-TItle" data-aos="slide-left">My <span>Works</span></h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 portfolioWrapper">
+                            <div class="section-title" id="work" data-aos="slide-right">
+                                <div class="portfolio-filter">
+                                    <ul>
+                                        <li class="show-button filter active" data-filter="all">Show All</li>
+                                        <li class="show-button filter" data-filter=".category-1">Blogs</li>
+                                        <li class="show-button filter" data-filter=".category-2">Customers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="mix-container">
+                                    <div class="col-xs-12 col-lg-3 col-sm-12 mix" data-aos="fade-up">
+                                        <div class="imageWrapper">
+                                            <a class="lightbox" href="#popup-1">
+                                                <img src="img/img1.png" alt="">
+                                                <div class="imageHover">
+                                                    <div>
+                                                        <h3>Raaina Bakery</h3>
+                                                        <span>Shop</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div id="popup-1" class="mfp-hide popup-box">
+                                                <img src="img/img1.png" alt="">
+                                                <div>
+                                                    <h3>Raaina Bakery</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                        penatibus et magnis dis parturient montes, nascetur ridiculus
+                                                        mus.
+                                                        Nulla consequat massa quis enim.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-3 col-sm-12 mix category-2" data-aos="fade-up">
+                                        <div class="imageWrapper">
+                                            <a class="lightbox" href="#popup-2">
+                                                <img src="img/img2.png" alt="">
+                                                <div class="imageHover">
+                                                    <div>
+                                                        <h3>Rudra Investment</h3>
+                                                        <span>Consultancy</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div id="popup-2" class="mfp-hide popup-box">
+                                                <img src="img/img2.png" alt="">
+                                                <div>
+                                                    <h3>Rudra Investment</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                        penatibus et magnis dis parturient montes, nascetur ridiculus
+                                                        mus.
+                                                        Nulla consequat massa quis enim.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-3 col-sm-12 mix " data-aos="fade-up">
+                                        <div class="imageWrapper">
+                                            <a class="lightbox" href="#popup-3">
+                                                <img src="img/img3.png" alt="">
+                                                <div class="imageHover">
+                                                    <div>
+                                                        <h3>EKart</h3>
+                                                        <span>E-commerce</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div id="popup-3" class="mfp-hide popup-box">
+                                                <img src="img/img3.png" alt="">
+                                                <div>
+                                                    <h3>EKart</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                        penatibus et magnis dis parturient montes, nascetur ridiculus
+                                                        mus.
+                                                        Nulla consequat massa quis enim.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-3 col-sm-12 mix category-1" data-aos="fade-up">
+                                        <div class="imageWrapper">
+                                            <a class="lightbox" href="#popup-4">
+                                                <img src="img/img4.png" alt="">
+                                                <div class="imageHover">
+                                                    <div>
+                                                        <h3>Sanket Code</h3>
+                                                        <span>Portfolio</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div id="popup-4" class="mfp-hide popup-box">
+                                                <img src="img/img4.png" alt="">
+                                                <div>
+                                                    <h3>Sanket Code</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                        penatibus et magnis dis parturient montes, nascetur ridiculus
+                                                        mus.
+                                                        Nulla consequat massa quis enim.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-3 col-sm-12 mix category-2" data-aos="fade-up">
+                                        <div class="imageWrapper">
+                                            <a class="lightbox" href="#popup-5">
+                                                <img src="img/img1.png" alt="">
+                                                <div class="imageHover">
+                                                    <div>
+                                                        <h3>Raaina Bakery</h3>
+                                                        <span>Shop</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div id="popup-5" class="mfp-hide popup-box">
+                                                <img src="img/img1.png" alt="">
+                                                <div>
+                                                    <h3>Raaina Bakery</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                        penatibus et magnis dis parturient montes, nascetur ridiculus
+                                                        mus.
+                                                        Nulla consequat massa quis enim.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-3 col-sm-12 mix category-1" data-aos="fade-up">
+                                        <div class="imageWrapper">
+                                            <a class="lightbox" href="#popup-6">
+                                                <img src="img/img2.png" alt="">
+                                                <div class="imageHover">
+                                                    <div>
+                                                        <h3>Rudra Investment</h3>
+                                                        <span>Consultancy</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <div id="popup-6" class="mfp-hide popup-box">
+                                                <img src="img/img2.png" alt="">
+                                                <div>
+                                                    <h3>Rudra Investment</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                                                        commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                        penatibus et magnis dis parturient montes, nascetur ridiculus
+                                                        mus.
+                                                        Nulla consequat massa quis enim.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Work Gallary section End-->
+
+
+
+/* CSS FOR WORK SECTION*/
+/* Work section css start*/
+#skilll-scroll{
+	margin-bottom: -70px;
+}
+.work-gallary {
+	width: 100%;
+	background-color: white;
+	background-size: cover;
+	position: relative;
+  	overflow: hidden;
+  	margin-top: 200px;
+  	margin-bottom: 100px;
+}
+.work-sub-title{
+	font-size: 20px;
+}
+.button-group{
+	font-size: 16px;
+}
+#work .grid .grid-item{
+	margin-right: 1.2rem;
+	margin-top: 1rem;
+}
+.Work-Main-TItle{
+	font-weight: bold;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+	font-size: 25px;
+
+}
+.Work-Main-TItle span{
+	color:  #68e0cf;
+	font-weight: bold;
+	
+}
+.show-button{
+	border-radius: 
+}
+.show-button {
+background-color:#68e0cf !important;
+border-color:#68e0cf  !important;
+color: black !important;
+padding: 8px 12px 8px 12px;
+shape-outside: circle();
+font-weight: bold;
+font-size: 10px !important;
+border-radius: 15px;
+}
+.show-button:hover{
+background-color:#68e0cf !important;
+color: black !important;
+border-color: #68e0cf  !important;
+transition: all 500ms ease;
+}
+.portfolio-filter{
+	padding-top: 50px;
+	margin-left: -15px;
+}
+#mix-container{
+	padding-bottom: 130px!important;
+}
+
+
+
+.About-Main-title{
+	text-align: center;
+	color: black;
+	padding:1rem;
+	position: relative;
+}
+.About-Main-title:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 150px;
+	background-color: #68e0cf;
+}
+.Work-Main-TItle{
+	text-align: center;
+	color: black;
+	padding:1rem;
+	position: relative;
+}
+.Work-Main-TItle:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 4px;
+	width: 70px;
+	background-color: #68e0cf;
+}
+/* CSS FOE WORK SECTION END*/
